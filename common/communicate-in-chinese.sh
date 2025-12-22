@@ -28,6 +28,6 @@ done
 
 # 如果没有中文要求，输出中文沟通指示
 if [ "$has_chinese_request" = false ]; then
-    echo "请用中文回答。"
+    echo "请必须用中文回答。"
 fi
 # 如果已有中文要求，不输出任何内容（保持静默）
